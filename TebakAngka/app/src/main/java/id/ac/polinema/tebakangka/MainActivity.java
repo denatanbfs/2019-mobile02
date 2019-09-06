@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 		initRandomNumber();
 	}
 
+
 	// TODO: generate angka random di sini
 	private void initRandomNumber() {
 		datarandom = new Random().nextInt(100 - 1) + 1;
